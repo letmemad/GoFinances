@@ -82,6 +82,10 @@ export const TableContainer = styled.section`
       &.outcome {
         color: #e83f5b;
       }
+
+      svg:hover {
+        cursor: pointer;
+      }
     }
 
     td:first-child {

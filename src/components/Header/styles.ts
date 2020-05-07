@@ -32,5 +32,14 @@ export const Container = styled.div<ContainerProps>`
         }
       }
     }
+
+    ul {
+      display: flex;
+      list-style: none;
+
+      li {
+        margin: 0 15px;
+      }
+    }
   }
 `;
